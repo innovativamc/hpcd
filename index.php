@@ -44,8 +44,7 @@
 			top:560px; 
 			}	*/
 	} 	
-	/* comentario david */
-	/* comentario jose 2 */
+	/* nuevo commit*/
 
     </style>
   <script src="js/prefixfree.min.js"></script>
