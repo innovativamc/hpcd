@@ -45,7 +45,7 @@
 			}	*/
 	} 	
 	/* comentario david */
-	/* comentario jose */
+	/* comentario jose 2 */
 
     </style>
   <script src="js/prefixfree.min.js"></script>
