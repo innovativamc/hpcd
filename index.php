@@ -43,8 +43,11 @@
 /*		footer{ 
 			top:560px; 
 			}	*/
-	} 	
+	} 	 
 	/* nuevo commit*/
+ 
+	/* comentario david */
+	/* comentario jose 2 hola nuevo */  
 
     </style>
   <script src="js/prefixfree.min.js"></script>
