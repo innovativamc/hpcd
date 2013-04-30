@@ -69,26 +69,23 @@
 			<br/>
 		</div>
         <div class="botones">
-        		<a href="home.php">
-			<div class="botonEs">
+        	<div class="botonEs">
 				<p>
 					<ul>
-						<li>Propiedad intelectual</li>
-						<li>Abogados</li>
+						<a href="home.php"><li>Propiedad intelectual</li></a>
+						<a href="home.php"><li>Abogados</li></a>
 					</ul>
 				</p>
 			</div>
 			</a>
-			<a href="home.php">
 			<div class="botonEn">
 				<p>
 					<ul>
-						<li>Corporate</li>
-						<li>Intelectual Property</li>
+						<a href="home.php"><li>Corporate</li></a>
+						<a href="home.php"><li>Intelectual Property</li></a>
 					</ul>
 				</p>
 			</div>
-			</a>
         </div> 
 	</section>
 </section>	
