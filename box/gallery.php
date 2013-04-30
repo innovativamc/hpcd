@@ -89,19 +89,10 @@
 </div>
   </section>  
 </div>
-
-<script type="text/javascript" src="js/shCore.js"></script>
-  <script type="text/javascript" src="js/shBrushXml.js"></script>
-  <script type="text/javascript" src="js/shBrushJScript.js"></script>
-  
-  <!-- Optional FlexSlider Additions -->
-  <script src="js/jquery.easing.js"></script>
-  <script src="js/jquery.mousewheel.js"></script>
-  <script defer src="js/demo.js"></script>
+    
    <!-- jQuery -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
-  <script defer src="jquery.flexslider.js"></script>
+  <script src="js/jquery-1.9.1.min.js"></script> 
+  <script defer src="FlexSlider-Home/jquery.flexslider-min.js"></script>
   <script type="text/javascript">
     $(function(){
       SyntaxHighlighter.all();
