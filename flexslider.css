@@ -23,7 +23,7 @@
 *********************************/ 
 .flexslider {margin: 0; padding: 0;}
 .flexslider .slides > li {display: block; -webkit-backface-visibility: visible; width:22em !important} /* Hide the slides before the JS is loaded. Avoids image jumping */
-.flexslider .slides img {width: 100%; display: block;}
+.flexslider .slides img {width: 100%; display: none;}
 .flex-pauseplay span {text-transform: capitalize;}
 
 /* Clearfix for the .slides element */

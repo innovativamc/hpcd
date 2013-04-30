@@ -114,6 +114,7 @@
         itemMargin: 5,
         start: function(slider){
           $('body').removeClass('loading');
+          $(".slides img").css( "display", "block" );
         }
       });
     });
