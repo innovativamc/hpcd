@@ -189,10 +189,10 @@ nav ul li ul li:hover > a{
 	margin: -1em 0.3em 0.3em 0;
 }
 .contenedor .descripcion{
+	color: #868688;
 	font-size: 27px;
 	line-height: 1.0em;
 	margin: 5px 5px 5px 0;
-	color: #868688;
 
 }
 .clear{
@@ -200,16 +200,17 @@ nav ul li ul li:hover > a{
 }
 .botonEs,
 .botonEn{
-	margin-right: 5px;
-	position: relative;
-	width: 176px;
-	height: 100px; 
-	right: 0;
 	bottom: 0;
+	cursor: pointer;	
 	display:inline-block;
 	font-size: 12px;
-	cursor: pointer;	
+	float: left;
+	height: 100px; 
+	margin-right: 5px;
+	position: relative;
+	right: 0;
 	transition: all 0.5s linear;
+	width: 176px;
 }
 .botonEs{
 	background: url(../images/boton_es.png) no-repeat top center;
@@ -228,9 +229,9 @@ nav ul li ul li:hover > a{
 }
 .botonEs ul,
 .botonEn ul{
-	position: absolute;
-	margin-left: -10px;
 	bottom: -10px;
+	margin-left: -10px;
+	position: absolute;
 }
 .parrafo{text-align: justify; }
 h2{ 
@@ -245,32 +246,32 @@ h3{text-transform: uppercase;
 }
 .columna{ 
 	float:left;
-	vertical-align: top;
 	padding:1%;
+	vertical-align: top;
 	width:35%;
 }
 .titulo_news{ 
-	font-size:34px;
-	float:right;
-	text-align:right; 
 	display:inline-block; 
-	vertical-align: top; 
+	float:right;
+	font-size:34px;
 	padding-top:10%; 
+	text-align:right; 
+	vertical-align: top; 
 	width:200px; 
 }
 .topevento{
-	width: 100%;
-	background: url(../images/eventos.png) no-repeat center; 
 	background-size: 100%;
+	background: url(../images/eventos.png) no-repeat center; 
 	height: 140px;
+	width: 100%;
 }
 
 .eventoleft,
 .eventoright{ 
 	display: inline-block;
+	text-align: center;
 	vertical-align: top;
 	width: 70%;
-	text-align: center;
 }
 .eventoright{ 
 	width: 29%;		
@@ -280,25 +281,25 @@ h3{text-transform: uppercase;
 	visibility: visible;
 }
 .eventodescripcion{
-	position: absolute;
 	background: rgba(78,79,81,0.7);
-	padding: 10px;
-	width: 340px;
-	visibility: hidden;
 	height: 0;
 	overflow: hidden;
+	padding: 10px;
+	position: absolute;
 	transition: all 0.5s ease;
+	visibility: hidden;
+	width: 340px;
 }
 .eventogaleria img{
-	top: 0;
-	width: 100%;
 	margin-bottom: 5px;
+	top: 0;
 	vertical-align: top;
+	width: 100%;
 }
 .articuloevento{
 	display: inline-block;
-	vertical-align: top;
 	margin: 5px; 
+	vertical-align: top;
 	width: 360px;
 
 }
@@ -307,28 +308,39 @@ h3{text-transform: uppercase;
 }
 .eventotitle{
 	color: #fff;
-	text-align: left;
 	font-size: 1.2em;
 	margin-bottom: 10px;	
+	text-align: left;
 }
 .eventofecha{
-	text-align: left;
 	color: #25aae1;
+	text-align: left;
 }
 #logo{
 	padding: 5px 5px 5px 20px;
 }
 
 #titulo_new{
-	width:20%;  
-	margin:0 1em;  
 	float:left;	
-	vertical-align: top; 
+	margin:0 1em;  
 	padding:1%;  
+	vertical-align: top; 
+	width:20%;  
 }
-.igual2{ width: 45%; color:#222; font-size: 12px}
-.right2{ text-align: right; margin-top: -20px;}
-.left2{ text-align: left; margin-top: -20px; margin-left:0px;}
+.igual2{ 
+	color:#222; 
+	font-size: 12px
+	width: 45%; 
+}
+.right2{ 
+	right; margin-top: -20px;
+	text-align: 
+}
+.left2{ 
+	margin-left:0px;
+	margin-top: -20px; 
+	text-align: left; 
+}
 
 
 	@media screen and (max-width:1024px){ 
