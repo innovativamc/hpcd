@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="eventCalendar/css/eventCalendar_theme_responsive.css"> 
 
 <!-- flexslider css -->
-<link rel="stylesheet" href="FlexSlider/flexslider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="FlexSlider-Eventos/flexslider.css" type="text/css" media="screen" />
 
 <style>
 	body{
@@ -36,24 +36,34 @@
 <body>
 <?php include('box/header.php') ?>	
 	<section class="contenedor">	
-	 	<section class="topevento">
-	 	</section>
+		<section class="option3top">
+			<img src="images/eventos.png" width="100%" alt="">
+		</section>
 	 	<section class="eventoleft">
 	 		<article class="eventogaleria">  
 				<div class="flexslider">
 				  <ul class="slides">
-				    <li>
+				    <li> 
+					    <div class="eventodescripciontop">
+							<div class="eventotitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+							<div class="eventofecha">12/12/12</div>
+						</div>
 				      <img src="images/event1.png" width="100%" />
 				    </li>
 				    <li>
-				      <img src="images/event1.png" width="100%"  />
+				    	<div class="eventodescripciontop">
+							<div class="eventotitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+							<div class="eventofecha">12/12/12</div>
+						</div>	
+				      	<img src="images/event1.png" width="100%"  />
 				    </li>
-				    <li>
-				      <img src="images/event1.png" width="100%"  />
-				    </li>
-				    <li>
-				      <img src="images/event1.png" width="100%"  />
-				    </li>
+					 <li>
+					    <div class="eventodescripciontop">
+							<div class="eventotitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+							<div class="eventofecha">12/12/12</div>
+						</div>	
+				      	<img src="images/event1.png" width="100%"  />
+				    </li> 
 				  </ul>
 				</div>				    				 	 			 
 	 		</article>
@@ -102,10 +112,10 @@
 	<br />
 	<br />
 </section>	
-<?php include('box/footer.php') ?>
+<?php $galeria=null; include('box/footer.php') ?>
 <script src="eventCalendar/js/jquery.eventCalendar.js" type="text/javascript"></script>
  <!-- FlexSlider -->
-  <script defer src="FlexSlider/jquery.flexslider.js"></script>
+  <script defer src="FlexSlider-Eventos/jquery.flexslider.js"></script>
   
   <script type="text/javascript">
 		$(window).load(function() {
