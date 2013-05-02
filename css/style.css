@@ -293,27 +293,30 @@ h4{
 	width: 29%;		
 }
 .articuloevento:hover .eventodescripcion{
-	height: 100px;
-	visibility: visible;
+	height: 100px; 
+	padding-top: 10px;
 }
 .slides li:hover .eventodescripciontop{
-	height: 100px;
-	visibility: visible;
-
+	padding-top: 30px; 
+	height: 120px;
 }
 .eventodescripcion, .eventodescripciontop{
-	background: rgba(78,79,81,0.7);
+	background: rgba(78,79,81,0.7); 
 	height: 0;
 	overflow: hidden;
-	padding: 10px;
+	padding: 0;
 	position: absolute;
-	transition: all 0.5s ease; 
-	visibility: hidden;
+	transition: all 0.5s ease;  
 	width: 340px;
+	padding: 0;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 .eventodescripciontop{
+	padding: 0;
+	padding-left: 30px;
+	padding-right: 30px;
 	width: 100%;
-	padding: 30px;
 }
 
 .eventogaleria img{
