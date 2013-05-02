@@ -67,7 +67,7 @@
 			</div>
 		</div>
 	</section>
-	<br /><br /><br /><br />
+	<br /><br /><br /><br /><br />
 </section>	
 <?php $galeria=null; include('box/footer.php') ?>
 </body>

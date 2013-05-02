@@ -14,7 +14,7 @@
 				<li><a href="news.php">noticias</a></li>
 				<li><a href="eventos.php">eventos</a></li>
 				<li><a href="">carreras</a></li>
-				<li><a href="">contactenos</a></li>
+				<li><a href="contact.php">contactenos</a></li>
 			</ul>
 </section>            
 </nav>
