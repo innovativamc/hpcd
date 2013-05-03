@@ -9,28 +9,28 @@
           <center>
           <ul class="slides">
             <li>
-              <img src="images/galeria/foto1.png" />
+              <a href="home.php"><img src="images/galeria/foto1.png" /></a>
             </li>
             <li>
-              <img src="images/galeria/foto2.png" />
+             <a href="news.php"><img src="images/galeria/foto2.png" /></a> 
             </li>
             <li>
-              <img src="images/galeria/foto3.png" />
+              <a href="eventos.php"><img src="images/galeria/foto3.png" /></a>
             </li>
             <li>
-              <img src="images/galeria/foto4.png" />
+              <a href="people.php"><img src="images/galeria/foto4.png" /></a>
             </li>
             <li>
-              <img src="images/galeria/foto2.png" />
+              <a href="home.php"><img src="images/galeria/foto1.png" /></a>
             </li>
             <li>
-              <img src="images/galeria/foto3.png" />
+             <a href="news.php"><img src="images/galeria/foto2.png" /></a> 
             </li>
             <li>
-              <img src="images/galeria/foto4.png" />
+              <a href="eventos.php"><img src="images/galeria/foto3.png" /></a>
             </li>
             <li>
-              <img src="images/galeria/foto2.png" />
+              <a href="people.php"><img src="images/galeria/foto4.png" /></a>
             </li>
           </ul>
         </center>
