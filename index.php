@@ -63,8 +63,8 @@
         	<div class="botonEs">
 				<p>
 					<ul>
-						<a href="home.php"><li>Propiedad intelectual</li></a>
-						<a href="home.php"><li>Abogados</li></a>
+						<a href="home.php?profesionales=asesores"><li>Propiedad intelectual</li></a>
+						<a href="home.php?profesionales=abogados"><li>Abogados</li></a>
 					</ul>
 				</p>
 			</div>
@@ -72,8 +72,8 @@
 			<div class="botonEn">
 				<p>
 					<ul>
-						<a href="home.php"><li>Corporate</li></a>
-						<a href="home.php"><li>Intelectual Property</li></a>
+						<a href="home.php?profesionales=asesores"><li>Corporate</li></a>
+						<a href="home.php?profesionales=abogados"><li>Intelectual Property</li></a>
 					</ul>
 				</p>
 			</div>
