@@ -1,3 +1,10 @@
+<?php 
+session_start();
+
+if ($_GET["profesionales"]==""){ $_SESSION['profesionales']='abogados' } 
+else { $_SESSION['profesionales'] = $_GET["profesionales"] }
+
+?>
 <header>
 	<section>
 		<a href="home.php"><img id="logo" src="images/logo.png" /></a>
