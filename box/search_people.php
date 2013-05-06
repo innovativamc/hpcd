@@ -8,13 +8,13 @@
 						<a href="people_select.php">R</a> | S | T | U | V | W | X | Y | Z | todos 
 					</h2>
 						<p>
-							<select maxlength="50">
+							<select>
 		  						<option value="0">Seleccione Sector</option>
 		  						<option value="0" >Seleccione una Practica</option>
 							</select>
 						</p>
 					<p>
-						<select maxlength="50">
+						<select>
 
 						<?php 
 
@@ -59,7 +59,7 @@ Cambiario</option>
 						</select>
 					</p>
 					<p>
-						<select maxlength="50">
+						<select>
 	  						<option value="0">Seleccione Lugar</option>
 	  						<option value="0">Seleccione una Practica</option>
 						</select>

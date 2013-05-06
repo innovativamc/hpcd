@@ -1,8 +1,9 @@
 <?php 
-session_start();
+if ($_GET["profesionales"]=="")
+	
+		{     if($_SESSION['profesionales']=='') {$_SESSION['profesionales']='abogados'; } 
 
-if ($_GET["profesionales"]==""){ $_SESSION['profesionales']='abogados' } 
-else { $_SESSION['profesionales'] = $_GET["profesionales"] }
+}else { $_SESSION['profesionales'] = $_GET["profesionales"]; }
 
 ?>
 <header>
