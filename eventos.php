@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html >
 <html>
 <head>
@@ -43,62 +44,20 @@
 	 		<article class="eventogaleria">  
 				<div class="flexslider">
 				  <ul class="slides">
-				    <li> 
-					    <div class="eventodescripciontop">
-							<div class="eventotitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-							<div class="eventofecha">12/12/12</div>
-						</div>
-				      <img src="images/event1.png" width="100%" />
-				    </li>
-				    <li>
-				    	<div class="eventodescripciontop">
-							<div class="eventotitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-							<div class="eventofecha">12/12/12</div>
-						</div>	
-				      	<img src="images/event1.png" width="100%"  />
-				    </li>
-					 <li>
-					    <div class="eventodescripciontop">
-							<div class="eventotitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-							<div class="eventofecha">12/12/12</div>
-						</div>	
-				      	<img src="images/event1.png" width="100%"  />
-				    </li> 
+				     <? require_once("control/events.get.php"); 
+				     	get_important_events();
+				     ?>
 				  </ul>
 				</div>				    				 	 			 
 	 		</article>
-	 		<article class="articuloevento">
-				<div class="eventodescripcion">
-					<div class="eventotitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-					<div class="eventofecha">12/12/12</div>
-				</div>
-	 			<img src="images/event2.png" alt=""/>
-	 		</article>
-	 		<article class="articuloevento">
-	 			<div class="eventodescripcion">
-					<div class="eventotitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-					<div class="eventofecha">12/12/12</div>
-				</div>
-				<img src="images/event3.png" alt=""/></article>
-	 		<article class="articuloevento">
-				<div class="eventodescripcion">
-					<div class="eventotitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-					<div class="eventofecha">12/12/12</div>
-				</div>
-	 			<img src="images/event4.png" alt=""/></article>
-	 		<article class="articuloevento">
-				<div class="eventodescripcion">
-					<div class="eventotitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-					<div class="eventofecha">12/12/12</div>
-				</div>
-	 			<img src="images/event5.png" alt=""/></article>
+	 		 		<? get_normal_events();?>
 	 	</section>
 	 	<section class="eventoright">
 				<div id="eventCalendarNoCache"></div>
 				<script>
 					$(document).ready(function() {
-						$("#eventCalendarNoCache").eventCalendar({
-							// eventsjson: 'eventCalendar/json/events.json2.php',
+						$("#eventCalendarNoCache").eventCalendar({ 
+							eventsjson: 'control/events.json.php',
   							eventsLimit: 0, 
   							dayNamesShort: [ 'S','M','T','W', 'T','F','S' ],
 							cacheJson: false
