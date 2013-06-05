@@ -22,6 +22,24 @@ function get_events_important($important)
 	$objBd->consultarBD("select events.date, events.title, events.description, events.url, images.url from events, images where events.important=".$important." and events.id_images=images.id"); 
 	return $objBd;
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
 //retorna el los prductos
 function get_productos()
 	{ 
