@@ -1,4 +1,4 @@
-<?php require '../modelo/funcionesdb.php';
+<?php require 'funcionesdb.php';
 class constructor
 {
 

@@ -29,6 +29,7 @@ var $consulta;//Almacena la consulta realizada con el metodo consultaBD();
 
 //Ejemplo: $objBD=new //AdaCnxBD("localhost","MiBaseDeDatos","MiNombreDeUsuario","MiContraseña");
 function modelo($servidor="localhost",$nombreBD="hpcd",$nombreDeUsuario="root",$contrasena="root"){
+// function modelo($servidor="internal-db.s92363.gridserver.com",$nombreBD="db92363_hpcd",$nombreDeUsuario="db92363_hpcd",$contrasena="hpcd1234D"){
 
 $this->servidor=$servidor; 
 
